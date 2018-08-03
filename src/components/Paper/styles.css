@@ -1,0 +1,23 @@
+.paper {
+    background-color: #FFFFFF;
+    padding: 24px;
+    border-radius: 4px;
+}
+
+.paper-card {
+    width: 280px;
+    height: 350px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.paper-detail {
+    width: 560px;
+    height: 616px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.paper-login {
+    width: 480px;
+    height: 239px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}

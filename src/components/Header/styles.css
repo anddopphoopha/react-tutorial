@@ -1,0 +1,19 @@
+.header {
+    height: 80px;
+    width: 100%;
+    background-color: #00CECC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 88px;
+    padding-right: 32px;
+    box-sizing: border-box;
+    background-image:  url('./popcorn.svg');
+    background-repeat: no-repeat;
+    background-position: 33px 50%;
+    color: #FFF;
+}
+
+.header p {
+    font-size: 18px;
+}

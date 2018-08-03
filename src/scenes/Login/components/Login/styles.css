@@ -1,0 +1,23 @@
+.login {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.login h1 {
+    text-align: center;
+    color: #FF7A6A;
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.login .error {
+    color: #F96A6A;
+    font-size: 13px;
+    margin-bottom: 24px;
+}
+
+.login .fieldWrapper {
+    margin-bottom: 16px;
+}

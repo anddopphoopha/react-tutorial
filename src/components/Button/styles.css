@@ -1,0 +1,20 @@
+.orangeButton {
+    background-color: #FE8065;
+}
+
+.greyButton {
+    background-color: #C3C3C3;
+}
+
+button {
+    color: #FFF;
+    border-radius: 2px;
+    padding: 8px 0px;
+    border: 0;
+    width: 103px;
+    height: 34px;
+    text-align: center;
+    font-size: 14px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
