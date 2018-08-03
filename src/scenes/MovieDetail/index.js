@@ -101,5 +101,4 @@ class Detail extends Component {
         )
     }
 }
-
 export default withRouter(Detail)
