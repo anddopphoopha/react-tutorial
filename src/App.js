@@ -9,11 +9,23 @@ import Paper from './components/Paper';
 import Login from './scenes/Login'
 
 class App extends Component {
+
+  state = {
+    username: ''
+  }
+
+  submit = username => {
+    this.setState({
+      username
+    })
+  }
+
   render() {
+    const { username } = this.state
     return (
-      <div className="App">
-        <Header name="John"/>
-        <Route/>
+       <div className="App">
+        <Header name={username}/>
+        <Route usernameSubmit={this.submit}/>
       </div>
     );
   }

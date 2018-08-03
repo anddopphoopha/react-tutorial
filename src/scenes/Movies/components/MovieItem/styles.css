@@ -1,0 +1,22 @@
+.itemContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.itemContainer .itemHeader {
+    color: #FF7A6A;
+    font-size: 18px;
+}
+
+.itemContainer p {
+    font-size: 14px;
+    color: #A7A7A7;
+    margin-bottom: 12px;
+}
+
+.itemContainer img {
+    width: 149px;
+    height: 205px;
+}

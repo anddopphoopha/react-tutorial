@@ -18,10 +18,11 @@ class LoginContainer extends Component {
     }
 
     onSubmit = () => {
-        const { isValid } = this.state
-        const { history } = this.props
+        const { isValid, username } = this.state
+        const { history, usernameSubmit } = this.props
         if (isValid) {
             history.push('/movies')
+            usernameSubmit(username)
         }
     }
 

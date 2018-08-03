@@ -2,9 +2,9 @@ import React from 'react'
 import LoginContainer from './containers/Login';
 
 
-function Login() {
+function Login(props) {
     return (
-        <LoginContainer/>
+        <LoginContainer {...props} />
     )
 }
 

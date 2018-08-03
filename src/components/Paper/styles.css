@@ -1,6 +1,5 @@
 .paper {
     background-color: #FFFFFF;
-    padding: 24px;
     border-radius: 4px;
 }
 
@@ -8,6 +7,12 @@
     width: 280px;
     height: 350px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 32px;
+    cursor: pointer;
 }
 
 .paper-detail {
@@ -20,4 +25,5 @@
     width: 480px;
     height: 239px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    padding: 24px;
 }

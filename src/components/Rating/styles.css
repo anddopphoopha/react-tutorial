@@ -1,0 +1,11 @@
+.rate {
+    font-size: 14px;
+    margin-top: 20px;
+    background-image: url('./star.svg');
+    background-repeat: no-repeat;
+    padding-left: 28px;
+}
+
+.rate span {
+    color: #FFCD00;
+}
